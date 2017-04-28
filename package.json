@@ -1,0 +1,31 @@
+{
+  "name": "pubsub-redis-wrap",
+  "version": "0.0.1",
+  "description": "A simple wrapper around redis pub/sub that makes it easy to enable and utilize pub/sub in your server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://shaggydev@github.com/ShaggyDev/pubsub-redis-wrap.git"
+  },
+  "keywords": [
+    "pubsub",
+    "node",
+    "redis",
+    "simple"
+  ],
+  "author": {
+    "name": "Donald Green",
+    "email": "mrdongreen@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShaggyDev/pubsub-redis-wrap/issues"
+  },
+  "homepage": "https://github.com/ShaggyDev/pubsub-redis-wrap#readme",
+  "dependencies": {
+    "ioredis": "^2.5.0"
+  }
+}
